@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Kiela 👋
 
-<!--
-**k1ek1ng/k1ek1ng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CS & Math sophomore. Last year I did an AI-automation internship at **Cypress Industries** (electronics manufacturing), where I built ~10 production tools that run the company's back office — invoice processing, ERP querying, month-end reporting. The code is proprietary, so I showcase the work two ways:
 
-Here are some ideas to get you started:
+## 🔓 Public rebuilds (real, runnable code)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Repo | What it is |
+|---|---|
+| [**erp-query-mcp**](https://github.com/k1ek1ng/erp-query-mcp) | MCP server: ask a manufacturing ERP database questions in plain English. Read-only SQL with layered guardrails. Generic rebuild of the tool that powers Cypress's automated month-end close. |
+| *ai-document-extractor* (coming soon) | LLM/vision extraction of structured line items from PDFs → clean JSON/Excel |
+| *fuzzy-entity-matcher* (coming soon) | Small utility resolving company-name variants ("Acme" vs "Acme Power Systems Inc.") |
+
+## 📝 Case studies (proprietary work, written up with permission)
+
+- [AP invoice-vouchering agent](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ap-invoice-agent.md) — agentic workflow drafting AP vouchers from ~2,400 supplier invoices/month; eliminated ~80 hrs/month of manual keying
+- [Automated month-end reporting](https://github.com/k1ek1ng/portfolio/blob/main/case-study-month-end-reporting.md) — a ~37-report close pack that took 4–5 days now runs in minutes
+- [AR invoicing pipeline](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ar-invoicing-pipeline.md) — daily ERP batch → invoice PDFs + context-aware email drafts
+
+## Stack I reach for
+
+Python · Node.js · SQL · LLM APIs (extraction, agents, MCP) · pandas/openpyxl
+
+📫 kielaemmaking@gmail.com
