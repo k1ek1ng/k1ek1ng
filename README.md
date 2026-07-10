@@ -7,7 +7,7 @@ CS & Math major at UW–Madison. I did an AI-automation internship at **Cypress 
 | Repo | What it is |
 |---|---|
 | [**erp-query-mcp**](https://github.com/k1ek1ng/erp-query-mcp) | MCP server: ask a manufacturing ERP database questions in plain English. Read-only SQL with layered guardrails. Generic rebuild of the tool that powers Cypress's automated month-end close. |
-| *ai-document-extractor* (coming soon) | LLM/vision extraction of structured line items from PDFs → clean JSON/Excel |
+| [**ai-document-extractor**](https://github.com/k1ek1ng/ai-document-extractor) | LLM/vision extraction of structured line items from PDFs → validated JSON/Excel. Dual-engine (text layer + Claude vision) with pydantic arithmetic checks. Generic rebuild of the extraction behind the AP invoice agent. |
 
 ## 📝 Case studies (proprietary work, written up with permission)
 
