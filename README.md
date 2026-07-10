@@ -1,6 +1,6 @@
 # Hi, I'm Kiela 👋
 
-CS & Math sophomore. Last year I did an AI-automation internship at **Cypress Industries** (electronics manufacturing), where I built ~10 production tools that run the company's back office — invoice processing, ERP querying, month-end reporting. The code is proprietary, so I showcase the work two ways:
+CS & Math major at UW–Madison. I did an AI-automation internship at **Cypress Industries** (electronics manufacturing), where I built ~10 production tools that run the company's back office — invoice processing, ERP querying, month-end reporting. The code is proprietary, so I showcase the work two ways:
 
 ## 🔓 Public rebuilds (real, runnable code)
 
