@@ -8,7 +8,6 @@ CS & Math major at UW–Madison. I did an AI-automation internship at **Cypress 
 |---|---|
 | [**erp-query-mcp**](https://github.com/k1ek1ng/erp-query-mcp) | MCP server: ask a manufacturing ERP database questions in plain English. Read-only SQL with layered guardrails. Generic rebuild of the tool that powers Cypress's automated month-end close. |
 | *ai-document-extractor* (coming soon) | LLM/vision extraction of structured line items from PDFs → clean JSON/Excel |
-| *fuzzy-entity-matcher* (coming soon) | Small utility resolving company-name variants ("Acme" vs "Acme Power Systems Inc.") |
 
 ## 📝 Case studies (proprietary work, written up with permission)
 
