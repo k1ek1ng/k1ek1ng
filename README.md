@@ -5,9 +5,11 @@ Industries**, a manufacturer — one intern, no senior engineer to review the wo
 and back-office processes that were being done by hand.
 
 I built tools for accounts payable, accounts receivable, sales-order entry,
-purchasing follow-up, and ERP reporting. Several are in production and run
-without me. All of them stop and ask a person before doing anything that costs
-money.
+purchasing follow-up, and ERP reporting. Four of them are in production: a
+supplier open-order follow-up job that has run unattended weekly since June, the
+AR invoice drafter, the AP invoice pipeline through voucher posting, and a set of
+self-updating ERP reports. All of them stop and ask a person before doing
+anything that costs money.
 
 ## Repos
 
