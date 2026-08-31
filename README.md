@@ -1,22 +1,31 @@
-# Hi, I'm Kiela
+# Kiela King
 
-I am a CS and Math major at UW–Madison. I did an AI-automation internship at **Cypress Industries** , where I built 10 production tools that run the company's back office — invoice processing, ERP querying, month-end reporting. The code is proprietary, so I showcase the work two ways:
+CS and Math at UW-Madison. Last summer I was the entire AI function at **Cypress
+Industries**, a manufacturer — one intern, no senior engineer to review the work,
+and back-office processes that were being done by hand.
 
-## 🔓 Public rebuilds (real, runnable code)
+I built tools for accounts payable, accounts receivable, sales-order entry,
+purchasing follow-up, and ERP reporting. Several are in production and run
+without me. All of them stop and ask a person before doing anything that costs
+money.
+
+## Repos
 
 | Repo | What it is |
 |---|---|
-| [**erp-query-mcp**](https://github.com/k1ek1ng/erp-query-mcp) | MCP server: ask a manufacturing ERP database questions in plain English. Read-only SQL with layered guardrails. Generic rebuild of the tool that powers Cypress's automated month-end close. |
-| [**ai-document-extractor**](https://github.com/k1ek1ng/ai-document-extractor) | LLM/vision extraction of structured line items from PDFs → validated JSON/Excel. Dual-engine (text layer + Claude vision) with pydantic arithmetic checks. Generic rebuild of the extraction behind the AP invoice agent. |
+| [**erp-query-mcp**](https://github.com/k1ek1ng/erp-query-mcp) | MCP server giving an LLM read-only SQL access to an ERP database. Free-form SQL with guardrails — and a note on why the production version deliberately did not work this way. |
+| [**ai-document-extractor**](https://github.com/k1ek1ng/ai-document-extractor) | Invoice PDFs to validated JSON and Excel. Text-layer engine first, vision model second, one schema that checks the arithmetic either way. |
 
-## 📝 Case studies (proprietary work, written up with permission)
+## Write-ups
 
-- [AP invoice-vouchering agent](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ap-invoice-agent.md) — agentic workflow drafting AP vouchers from ~2,400 supplier invoices/month; eliminated ~80 hrs/month of manual keying
-- [Automated month-end reporting](https://github.com/k1ek1ng/portfolio/blob/main/case-study-month-end-reporting.md) — a ~37-report close pack that took 4–5 days now runs in minutes
-- [AR invoicing pipeline](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ar-invoicing-pipeline.md) — daily ERP batch → invoice PDFs + context-aware email drafts
+Proprietary work, described with permission — [full set](https://github.com/k1ek1ng/portfolio):
 
-## Stack I reach for
+- [AP invoice matching and vouchering](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ap-invoice-agent.md) — why price matching is exact at 4 decimal places, and what a backtest against approved invoices can and cannot prove
+- [Customer PO to sales order](https://github.com/k1ek1ng/portfolio/blob/main/case-study-po-to-so.md) — extraction coverage 54% to 84% on a real corpus, and idempotent ERP writes
+- [AR invoice delivery](https://github.com/k1ek1ng/portfolio/blob/main/case-study-ar-invoicing-pipeline.md) — the problem was customer identity, not email
 
-Python · Node.js · SQL · LLM APIs (extraction, agents, MCP) · pandas/openpyxl
+## Stack
 
-📫 kielaemmaking@gmail.com
+Python, Node.js, SQL Server, LLM APIs, MCP, Playwright, pandas/openpyxl
+
+kielaemmaking@gmail.com
