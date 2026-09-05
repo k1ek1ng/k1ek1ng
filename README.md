@@ -1,8 +1,7 @@
 # Kiela King
 
-CS and Math at UW-Madison. Last summer I was the entire AI function at **Cypress
-Industries**, a manufacturer — one intern, no senior engineer to review the work,
-and back-office processes that were being done by hand.
+CS and Math at UW-Madison. Last summer I was the only Software Engineering Intern at **Cypress
+Industries**, a mid-sized manufacturing company.
 
 I built tools for accounts payable, accounts receivable, sales-order entry,
 purchasing follow-up, and ERP reporting. Four of them are in production: a
